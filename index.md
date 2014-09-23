@@ -1,12 +1,12 @@
 ---
-title: FARR Commons
+title: Farr Commons
 layout: default
 ---
 
-# FARR Commons
+# Farr Commons
 
-The FARR Commons intends to publish a set of rules for publishing data within 
-the [FARR Institute](http://www.farrinstitute.org/).
+The Farr Commons intends to publish a set of rules for publishing data within 
+the [Farr Institute](http://www.farrinstitute.org/).
 
 This website is currently a **draft**. 
 
