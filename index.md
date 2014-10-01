@@ -1,11 +1,14 @@
 ---
-title: Farr Commons
+title: The Farr Commons
 layout: page
-tagline:
+tagline: Creating a Distributed Research Object Commons for the Farr Institute.
 group: main
 ---
 
-The Farr Commons will publish a set of rules for publishing data within
+The Farr Commons aims to bring together investigators across the Farr Institute
+so that they can easily and securely, share and reuse methodology and data.
+
+To do this we will publish a set of rules for publishing data within
 the [Farr Institute](http://www.farrinstitute.org/).
 
 The Farr Commons serves as a pilot for the NIH Research Object Commons -
