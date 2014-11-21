@@ -1,5 +1,5 @@
 ---
-title: Packging and Aggregation
+title: Packaging and Aggregation
 layout: page-with-sidebar
 tagline:
 group: rules
