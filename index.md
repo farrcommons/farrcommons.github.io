@@ -20,7 +20,7 @@ should follow in order to contribute to an interoperable ***data commons***.
 
 <div class="bs-callout bs-callout-warning">
 <h4> Active Development </h4>
-This website is currently in **draft**, and the content will be rapidly changing.
+This website is currently in <strong>draft</strong> and the content will be rapidly changing.
 </div>
 --
 
