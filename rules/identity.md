@@ -69,7 +69,7 @@ Which can be resolved at:
 • Online lookup (bind, search engines)
 
 
-######Resolution
+####Resolution
 
 Resolution is the process of taking an identifier - and locating the resource to which the identifier refers.  
 
