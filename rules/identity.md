@@ -119,6 +119,6 @@ DOIs for identifying stable resources
 
 ###References###
 
-[^1]:  Ruth E. Duerr et al., **On the utility of identification schemes for digital earth science data: an assessment and recommendations**
+[^1]  Ruth E. Duerr et al., **On the utility of identification schemes for digital earth science data: an assessment and recommendations**
 
-[^2]: Henry S. Thompson., Naming on the Web: **What scholars should want, and what they can have** http://indico.cern.ch/event/211600/session/3/contribution/2/material/slides/0.pdf
+[^2] Henry S. Thompson., Naming on the Web: **What scholars should want, and what they can have** http://indico.cern.ch/event/211600/session/3/contribution/2/material/slides/0.pdf
