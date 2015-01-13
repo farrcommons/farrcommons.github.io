@@ -28,10 +28,10 @@ The most important factor when it comes to citation is that the identifier shoul
 
 A previous study by [Duerr2011][^1] investigating the utility of identification schemes in the earth sciences breaks the requirements for identifiers down further into 4 separate issues:
 
-1) A **Unique Identifier**: To uniquely and unambiguously identify a particular piece of data, no matter which copy a user has.
-2) A **Unique Locator**: To locate an authoritative copy of the data no matter where they are currently held
-3) A **Citable Locator**: A combination of 1 & 2 to identify cited data.
-4) A **Scientifically Unique Identifier**: To be able to tell that two data instances contain the same information even if the formats are different.
+1. A **Unique Identifier**: To uniquely and unambiguously identify a particular piece of data, no matter which copy a user has.
+2. A **Unique Locator**: To locate an authoritative copy of the data no matter where they are currently held
+3. A **Citable Locator**: A combination of 1 & 2 to identify cited data.
+4. A **Scientifically Unique Identifier**: To be able to tell that two data instances contain the same information even if the formats are different.
 
 These 4 issues place increasingly
 
