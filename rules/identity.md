@@ -13,7 +13,7 @@ group: rules
 
 ###Discussion
 
-Research Objects are collections of one or more resources or "digital objects". Examples of these digital objects might be a data set, executable software, source code, or a pdf paper describing an investigation, as well metadata that describes those resources.
+Research Objects are collections of one or more resources or "digital objects". Examples of these digital objects might be a data set, executable software, source code, or a pdf paper describing an investigation, as well metadata that describes those resources. These resources may be directly contained within the research object, or they may just appear as a link or reference to the resource that resides elsewhere - e.g. a resource that lives in figshare http://figshare.com/articles/Difference_between_a_systematic_review_and_a_literature_review/766364 .
 
 An identity mechanism is required for research objects, and the resources that they contain, for several reasons:
 
@@ -53,19 +53,20 @@ If this is a particularly important requirement for a class of data, then a cont
 • Some legislative process
 • More-or-less explicit constitution of governing bodies
 
+
 - *Resolution*: Given a name, how do you find out what it means?
 • Official publications, a.k.a registries
 • More-or-less well-defined search procedures
 • Online lookup (bind, search engines)
 
 
-The The IUPAC International Chemical Identifier (InChI) is what we might refer to as a *deterministic scheme* for the identification of chemical substances that can be used in printed and electronic data. That is the identifier is derived from the data such that same data will always have the same identifier. For example the identifier for the chemical aspirin is:
+The The IUPAC International Chemical Identifier (InChI) is what we might refer to as a *deterministic scheme* for the identification of chemical substances that can be used in printed and electronic data. That is, the identifier is derived from the data such that same data will always have the same identifier. For example the identifier for the chemical aspirin is:
 
     InChI=1S/C9H8O4/c1-6(10)13-8-5-3-2-4-7(8)9(11)12/h2-5H,1H3,(H,11,12)  
 
-The ability to provide such a determinisitc naming
+The ability to provide such a deterministic identification scheme is not often possible.
 
-The resource identification initiative builds upon existing vendor identification schemes and prescribes a verbose mechanism of citation
+The resource identification initiative builds upon existing vendor identification schemes and prescribes a verbose mechanism of citation:
 
     "GeneTex Cat# GTX95689 RRID:AB_846382"
 
@@ -82,12 +83,10 @@ A standard http URI, e.g. http://www.w3.org/TR/webarch/ for example uses the exi
 
 Some identity mechanisms such as PURLs, RRIDs and the DOI ecosystem provide a level of fault-tolerance in their resolution system, by having registries that associate a given PURL, RRID, or DOI with a URI on the Web.  This level of indirection provides some protection against issues of link decay on the web, allowing maintainers of the identifiers to update broken links with the registry.
 
-An alternative to this is to make use of a Web Archiving initiative such as the the Web Archive (archive.org) or the UK Web Archive (http://www.webarchive.org.uk).
+An alternative to this indirection is to make use of a Web Archiving initiative such as the the Web Archive (archive.org) or the UK Web Archive (http://www.webarchive.org.uk) to ensure consistent availability of a resource.
 
 
 ####Identity and Versioning
-
-Research objects can be both individual resources, or a collection of a number of resources that make up an investigation.
 
 When citing a resource we may wish to make either a *summary level* or *version level* citation.
 
@@ -103,12 +102,18 @@ Alternatively the following URL identifies a specific version of the specificati
 
 http://www.w3.org/TR/2014/REC-json-ld-20140116/
 
+Research objects can be both individual resources, or a collection of a number of resources.
+
+When managing a research object that is a collection of resources we need to decide what constitutes a new version of that research object.
+
+This can become a challenge with resources that are referenced within the research object but actually reside elsewhere. We must decide whether to consider updates to these resources in the versioning of a research object. This is particularly challenging when the resources are not under the same stewardship, and are instead managed by a third party. 
+
 ### Representation ####
 Resources will be requested and consumed by both people and machines.
 
 When a human requests a resource, we should provide a human readable representation of that resource - for example a "splash page" describing a data collection.
 
-When a machine requests a resource we should instead provide a machine readable representation of the resource.
+When a machine requests a resource we should instead provide a machine readable representation of the resource. What is returned upon request from machine is often the resource itself. It may however again be a "splash page", but in this instance a machine readable version that provides a description of the resource. This might be particularly relevant for resources that have restricted access.  
 
 <!--OAI-PMH?
 
@@ -117,10 +122,11 @@ If resources are
 
 ### Recommended Formats ###
 
-ORCID ids for identifying people
-DOIs for identifying stable resources
+ORCID ids for identifying people.
+DOIs for identifying stable resources.
 
 ### Examples###
+
 
 
 ###References###
