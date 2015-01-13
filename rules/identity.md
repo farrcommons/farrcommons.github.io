@@ -86,7 +86,7 @@ Some identity mechanisms such as PURLs, RRIDs and the DOI ecosystem provide a le
 An alternative to this indirection is to make use of a Web Archiving initiative such as the the Web Archive (archive.org) or the UK Web Archive (http://www.webarchive.org.uk) to ensure consistent availability of a resource.
 
 
-####Identity and Versioning
+###Identity and Versioning
 
 When citing a resource we may wish to make either a *summary level* or *version level* citation.
 
@@ -102,11 +102,13 @@ Alternatively the following URL identifies a specific version of the specificati
 
 http://www.w3.org/TR/2014/REC-json-ld-20140116/
 
+####Versioning of Collections
+
 Research objects can be both individual resources, or a collection of a number of resources.
 
 When managing a research object that is a collection of resources we need to decide what constitutes a new version of that research object.
 
-This can become a challenge with resources that are referenced within the research object but actually reside elsewhere. We must decide whether to consider updates to these resources in the versioning of a research object. This is particularly challenging when the resources are not under the same stewardship, and are instead managed by a third party. 
+This can become a challenge with resources that are referenced within the research object but actually reside elsewhere. We must decide whether to consider updates to these resources in the versioning of a research object. This is particularly challenging when the resources are not under the same stewardship, and are instead managed by a third party.
 
 ### Representation ####
 Resources will be requested and consumed by both people and machines.
