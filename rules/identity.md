@@ -33,7 +33,7 @@ A previous study by [Duerr2011][^1] investigating the utility of identification 
 3. A **Citable Locator**: A combination of 1 & 2 to identify cited data.
 4. A **Scientifically Unique Identifier**: To be able to tell that two data instances contain the same information even if the formats are different.
 
-These 4 issues place increasingly
+These 4 issues place increasingly more complex requirements on the identifier scheme.
 
 The final requirement for a "Scientifically Unique Identifier" highlights that there are requirements placed on identifiers in scholarship that not all identifier schemes can satisfy, including the DOI mechanism. Consider the case where we wish to know whether two articles are referring to the same research object, and they use DOIs. In a discussion of DOIs [Bilder 2013][^2] highlights that there are many examples of research artifacts with multiple DOIs, for example:
 
